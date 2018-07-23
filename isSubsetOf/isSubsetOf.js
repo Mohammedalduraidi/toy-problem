@@ -24,7 +24,7 @@
 
 Array.prototype.isSubsetOf = function (arr) {
 	for (let i = 0; i < this.length; i++) {
-		if (!alo(arr, this[i])) {
+		if (alo(arr, this[i]) !== true) {
 		  return false;
 		}
 	  }
