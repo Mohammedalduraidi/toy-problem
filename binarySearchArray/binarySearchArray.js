@@ -11,10 +11,10 @@
  * console.log(index); // 4
  */
 
-var binarySearch = function (array1, target) {
+var binarySearch = function (array, target) {
 
     // index = 0,1,2,3,4,5,6,7,8,9
-  //example:- [1,2,3,4,5,6,7,8,9,10] 
+  //example:- [1,2,3,4,5,6,7,8,9,10] // should be sorted!
      var start = 0;
      var last = array.length -1; // the index of last its gonna be 9, but i'm gonna change it!
      var middle;
